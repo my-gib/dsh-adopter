@@ -1,0 +1,30 @@
+{
+  "listenHost": "127.0.0.1",
+  "listenPort": 9320,
+  "pollMs": 15000,
+  "token": "",
+  "channels": [
+    {
+      "id": "douyin",
+      "enabled": true,
+      "userId": "your-name",
+      "contactName": "your-name",
+      "recipientId": "conv:0000000000000000000000000000000000000000000000000000000000000000",
+      "notifierUrl": "http://127.0.0.1:8106/douyin",
+      "groups": []
+    },
+    {
+      "id": "bilibili",
+      "enabled": true,
+      "userId": "your-name",
+      "notifierUrl": "http://127.0.0.1:8107/bilibili",
+      "allowSend": false
+    },
+    {
+      "id": "douyin-notice",
+      "enabled": true,
+      "userId": "notice",
+      "notifierUrl": "http://127.0.0.1:8106/douyin"
+    }
+  ]
+}

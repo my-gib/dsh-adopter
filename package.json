@@ -1,0 +1,19 @@
+{
+  "name": "dsh-adopter",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "抖音 / B站 等网页社交平台的本机通道适配器：没有推送协议，就把它伪装成有，接进 dsh-notifier",
+  "main": "adopter.mjs",
+  "scripts": {
+    "start": "node adopter.mjs",
+    "status": "node adopter.mjs --status",
+    "contacts": "node adopter.mjs --dump-contacts",
+    "channels": "node adopter.mjs --list-channels",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "playwright-core": "^1.64.1",
+    "qrcode": "^1.5.4"
+  }
+}
